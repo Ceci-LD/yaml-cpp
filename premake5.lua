@@ -10,7 +10,13 @@ project "Yaml-cpp"
     files
     {
         "%{prj.name}/src/**.h",
-		"%{prj.name}/src/**.cpp"
+		"%{prj.name}/src/**.cpp",
+        "include/**.h"
+    }
+
+    includedirs
+    {
+        "include"
     }
 
     filter "system:windows"
