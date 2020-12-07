@@ -9,8 +9,8 @@ project "Yaml-cpp"
 
     files
     {
-        "%{prj.name}/src/**.h",
-		"%{prj.name}/src/**.cpp",
+        "src/**.h",
+		"src/**.cpp",
         "include/**.h"
     }
 
